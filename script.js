@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Scholar Link Redirection
 // @namespace    https://github.com/EricJin2002/google-scholar-link-redirection
-// @version      0.1
+// @version      0.2
 // @description  replace every google scholar link with its mirror site
 // @author       Lazybird
 // @match        *://*/*
@@ -73,5 +73,9 @@ if (
 ) {
     window.location.href = window.location.href.replace("scholar.google.com", mirror);
 }
-
-
+if (
+    window.location.href.startsWith("https://scholar.google.com.hk/") ||
+    window.location.href.startsWith("http://scholar.google.com.hk/")
+) {
+    window.location.href = window.location.href.replace("scholar.google.com.hk", mirror);
+}
