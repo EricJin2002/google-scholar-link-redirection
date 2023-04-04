@@ -30,4 +30,6 @@ That’s all we know.
 
 在搜索解决方案时发现了新一种方法，可以不借助镜像站解决IP被ban的问题，于是在这里mark一下。
 
-简单来说是使用cloudflare的warp服务，详见[给节点套上CF的warp，彻底解决access denied error code 1020问题](https://mailberry.com.cn/2023/02/cf-solve-it-completely-error-code-1020-by-warp)
+简单来说是使用cloudflare的warp服务，详见
+- [给节点套上CF的warp，彻底解决access denied error code 1020问题](https://mailberry.com.cn/2023/02/cf-solve-it-completely-error-code-1020-by-warp)
+- [科学上网 - 代理技巧 - Cloudflare Warp 原生 IP](https://github.com/haoel/haoel.github.io#94-cloudflare-warp-%E5%8E%9F%E7%94%9F-ip)
