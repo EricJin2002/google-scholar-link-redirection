@@ -21,3 +21,13 @@ That’s all we know.
 于是便有了这个脚本，实现了页面自动重定向的功能。
 
 希望有所帮助。
+
+---
+
+2023.04.05更新：
+
+继谷歌学术把我VPS的IP列入黑名单了之后，chatGPT也干了同样的事（提示1020错误）。悲
+
+在搜索解决方案时发现了新一种方法，可以不借助镜像站解决IP被ban的问题，于是在这里mark一下。
+
+简单来说是使用cloudflare的warp服务，详见[给节点套上CF的warp，彻底解决access denied error code 1020问题](https://mailberry.com.cn/2023/02/cf-solve-it-completely-error-code-1020-by-warp/#comments)
