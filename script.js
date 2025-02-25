@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 'use strict';
-const mirror = "xs2.studiodahu.com";
+const mirror = "so3.cljtscd.com";
 
 // 思路一：替换目标链接
 // 缺点：非通用
