@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Scholar Link Redirection
 // @namespace    https://github.com/EricJin2002/google-scholar-link-redirection
-// @version      0.2
+// @version      0.3
 // @description  replace every google scholar link with its mirror site
 // @author       Lazybird
 // @match        *://*/*
@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 'use strict';
-const mirror = "so3.cljtscd.com";
+const mirror = "xs.typicalgame.com";
 
 // 思路一：替换目标链接
 // 缺点：非通用
